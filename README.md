@@ -1,10 +1,9 @@
 # Money Management Application Back End
 
-[![Build Status](https://travis-ci.com/chidimo/Express-API-Template-With-MongoDB.svg?branch=master)](https://travis-ci.com/chidimo/Express-API-Template-With-MongoDB)
-[![Build status](https://ci.appveyor.com/api/projects/status/bd6mgdhtraf847xo/branch/master?svg=true)](https://ci.appveyor.com/project/chidimo/express-api-template-with-mongodb/branch/master)
-[![Coverage Status](https://coveralls.io/repos/github/chidimo/Express-API-Template-With-MongoDB/badge.svg?branch=master)](https://coveralls.io/github/chidimo/Express-API-Template-With-MongoDB?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a02e1a5e4c4f49f1e5a2/maintainability)](https://codeclimate.com/github/chidimo/Express-API-Template-With-MongoDB/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a02e1a5e4c4f49f1e5a2/test_coverage)](https://codeclimate.com/github/chidimo/Express-API-Template-With-MongoDB/test_coverage)
+[![Build status](https://ci.appveyor.com/api/projects/status/cyjcfcwpvufhbpw4/branch/main?svg=true)](https://ci.appveyor.com/project/marcolagos/back-end/branch/main)
+[![Coverage Status](https://coveralls.io/repos/github/Jam-Money-Management/back-end/badge.svg?branch=main)](https://coveralls.io/github/Jam-Money-Management/back-end?branch=main)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f45e5c8c6f45b75ec899/maintainability)](https://codeclimate.com/github/Jam-Money-Management/back-end/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f45e5c8c6f45b75ec899/test_coverage)](https://codeclimate.com/github/Jam-Money-Management/back-end/test_coverage)
 
 ## Setting up repository locally
 
