@@ -9,7 +9,6 @@ dotenv.config();
 (async () => {
   try {
     mongoose.set('strictQuery', false);
-    console.log(connectionString);
     await mongoose.connect(connectionString, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
