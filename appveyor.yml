@@ -3,8 +3,8 @@ environment:
     - nodejs_version: "18"
 install:
     - ps: Install-Product node $env:nodejs_version
-    - yarn
+    - npm
 test_script:
     - node --version
-    - yarn test
+    - npm test
 build: off
