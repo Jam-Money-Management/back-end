@@ -1,4 +1,4 @@
-import { Messages } from '../models/models';
+import { Messages } from '../models';
 
 export const messagesPage = async (req, res, next) => {
   try {

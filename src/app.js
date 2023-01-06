@@ -4,6 +4,9 @@ import logger from 'morgan';
 import express from 'express';
 import compression from 'compression';
 import cookieParser from 'cookie-parser';
+import morgan from 'morgan';
+import fs from 'fs';
+import path from 'path';
 
 import indexRouter from './routes/index';
 import { logErrors, clientError, serverError } from './errorHandlers';
@@ -12,6 +15,13 @@ import './models/connect';
 
 const app = express();
 
+app.use(
+  morgan('common', {
+    stream: fs.createWriteStream(path.join(__dirname, 'access.log'), {
+      flags: 'a',
+    }),
+  }),
+);
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

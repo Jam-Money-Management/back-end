@@ -1,7 +1,7 @@
 import { expect, server, BASE_URL } from './setup';
 
-describe('Test home routes', () => {
-  it('get messages page', (done) => {
+describe('Test Messaging', () => {
+  it('Get messages page', (done) => {
     server
       .get(`${BASE_URL}/messages`)
       .expect(200)
@@ -16,7 +16,7 @@ describe('Test home routes', () => {
       });
   });
 
-  it('posts messages', (done) => {
+  it('Post messages', (done) => {
     const data = { name: 'some name', message: 'new message' };
     server
       .post(`${BASE_URL}/messages`)

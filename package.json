@@ -14,6 +14,7 @@
     "deleteData": "babel-node ./src/utils/deleteData"
   },
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "compression": "^1.7.4",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
@@ -22,13 +23,15 @@
     "express": "^4.18.2",
     "helmet": "^6.0.1",
     "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.2",
-    "morgan": "~1.9.1",
+    "morgan": "^1.10.0",
     "node": "18.11.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.7",
+    "@babel/eslint-parser": "^7.19.1",
     "@babel/node": "^7.20.7",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
